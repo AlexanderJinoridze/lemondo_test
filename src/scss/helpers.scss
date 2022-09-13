@@ -1,0 +1,42 @@
+.text-light {
+    color: $gray-5;
+}
+
+.text-darker {
+    color: $gray-6;
+}
+
+.text-dark {
+    color: $dark;
+}
+
+.text-big {
+    font-size: 18px;
+}
+
+.text-small {
+    font-size: 14px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.page {
+    display: flex;
+}
+
+.side-bar {
+    width: 380px;
+    flex-shrink: 0;
+    margin-right: 2rem;
+
+    @media (max-width: $tablet) {
+        width: 280px;
+        margin-right: 1rem;
+    }
+}
+
+.main-content {
+    width: 100%;
+}
